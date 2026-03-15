@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy.orm import Session
-from .database import engine, Base, SessionLocal
-from .models import InputMaster
+from database import engine, Base, SessionLocal
+from models import InputMaster
 import os
 
 def load_data():
